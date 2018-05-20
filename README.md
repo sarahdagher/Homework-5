@@ -159,3 +159,9 @@ percent_change_tumor_vol= (((summ_tumor_vol -tumor_vol_table.iloc[0])/tumor_vol_
 #last row
 percent_changes = percent_change_tumor_vol.iloc[1:]
 percent_changes.sum()                                     
+
+
+Observations
+1. Capomulin and Ramicane, reduce the average number of metastatic sites by 1.5 and 1.25 respectively, while the other drugs have an average of 2-3 times more metastatic sites.
+2. Treatment with both Capomulin and Ramicane yielded a higher survival rate amonsgt mice over a 45 day period. Survival was 84% and 80%, respectively, while the other eight drugs yielded a survival rate ranging between 36 and 56% survival
+3.Capomulin and Ramicane show the most positive results in reduction of tumor size over a forty five day period, per the bar graph. 
